@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
 
         listaPeliculas();
 
-        Adapter_Peliculas adapter = new Adapter_Peliculas(this.arrayListaPeliculas);
+        Adapter_Peliculas adapter = new Adapter_Peliculas(this, arrayListaPeliculas);
 
         listView.setAdapter(adapter);
     }
